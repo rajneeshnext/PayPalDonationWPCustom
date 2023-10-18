@@ -1,1 +1,1 @@
-# PayPalDonationWPCustom
+Integrating Stripe payment gateway on our website, allowing us to receive donations securely and efficiently. Additionally, we also plan to incorporate a PayPal button alongside Stripe to provide donors with multiple payment options, further enhancing the ease of contributing to our cause.
