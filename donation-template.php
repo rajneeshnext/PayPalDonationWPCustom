@@ -12,9 +12,7 @@ get_header(); ?>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-creditcardvalidator/1.0.0/jquery.creditCardValidator.js"></script>
 <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
 <script>
-
-    //Stripe.setPublishableKey('pk_test_xxxxxxa');
-    Stripe.setPublishableKey('pk_live_xxxxh');
+    Stripe.setPublishableKey('pk_xxxxx');
     function stripePay(event) {
         $('.loader_gif').show();
         $('#makePayment').attr('disabled', 'disabled');
@@ -403,7 +401,7 @@ $(document).ready(function() {
             			    box-shadow: 0 1px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
             			}
             			.ast-container{
-        			        background: #ffffff url(http://www.irousa.org/wp-content/uploads/2023/08/D00j-2HWwAAZStM.jpg) no-repeat center center fixed;
+        			        background: #ffffff url(http://www.wxyz.org/wp-content/uploads/2023/08/D00j-2HWwAAZStM.jpg) no-repeat center center fixed;
                             background-size: cover;
                             background-repeat: no-repeat;
             			}
@@ -873,14 +871,14 @@ $(document).ready(function() {
 						<div class="row">
             				<div class="col-xs-6" style="padding:0;">
 						<div class="select_payment_mode active stripe">
-								<img class=" lazyloaded" alt="" loading="lazy" data-src="http://www.irousa.org/wp-content/uploads/2023/09/visa-319d545c6fd255c9aad5eeaad21fd6f7f7b4fdbdb1a35ce83b89cca12a187f00-1.svg" width="38" height="24" src="http://www.irousa.org/wp-content/uploads/2023/09/visa-319d545c6fd255c9aad5eeaad21fd6f7f7b4fdbdb1a35ce83b89cca12a187f00-1.svg">
-								<img class=" lazyloaded" alt="" loading="lazy" data-src="http://www.irousa.org/wp-content/uploads/2023/09/master-173035bc8124581983d4efa50cf8626e8553c2b311353fbf67485f9c1a2b88d1.svg" width="38" height="24" src="http://www.irousa.org/wp-content/uploads/2023/09/master-173035bc8124581983d4efa50cf8626e8553c2b311353fbf67485f9c1a2b88d1.svg">
-								<img class=" lazyloaded" alt="" loading="lazy" data-src="http://www.irousa.org/wp-content/uploads/2023/09/american_express-2264c9b8b57b23b0b0831827e90cd7bcda2836adc42a912ebedf545dead35b20.svg" width="38" height="24" src="http://www.irousa.org/wp-content/uploads/2023/09/american_express-2264c9b8b57b23b0b0831827e90cd7bcda2836adc42a912ebedf545dead35b20.svg">
+								<img class=" lazyloaded" alt="" loading="lazy" data-src="http://www.wxyz.org/wp-content/uploads/2023/09/visa-319d545c6fd255c9aad5eeaad21fd6f7f7b4fdbdb1a35ce83b89cca12a187f00-1.svg" width="38" height="24" src="http://www.wxyz.org/wp-content/uploads/2023/09/visa-319d545c6fd255c9aad5eeaad21fd6f7f7b4fdbdb1a35ce83b89cca12a187f00-1.svg">
+								<img class=" lazyloaded" alt="" loading="lazy" data-src="http://www.wxyz.org/wp-content/uploads/2023/09/master-173035bc8124581983d4efa50cf8626e8553c2b311353fbf67485f9c1a2b88d1.svg" width="38" height="24" src="http://www.wxyz.org/wp-content/uploads/2023/09/master-173035bc8124581983d4efa50cf8626e8553c2b311353fbf67485f9c1a2b88d1.svg">
+								<img class=" lazyloaded" alt="" loading="lazy" data-src="http://www.wxyz.org/wp-content/uploads/2023/09/american_express-2264c9b8b57b23b0b0831827e90cd7bcda2836adc42a912ebedf545dead35b20.svg" width="38" height="24" src="http://www.wxyz.org/wp-content/uploads/2023/09/american_express-2264c9b8b57b23b0b0831827e90cd7bcda2836adc42a912ebedf545dead35b20.svg">
 						</div>
 						</div>
 						<div class="col-xs-6" style="padding:0;">
 						<div class="select_payment_mode paypal">
-								<img class=" lazyloaded" alt="" loading="lazy" data-src="http://www.irousa.org/wp-content/uploads/2023/09/MMFY20_PayPal-PNG-Transparent-Image_3x_LC.png" width="38" height="24" src="http://www.irousa.org/wp-content/uploads/2023/09/MMFY20_PayPal-PNG-Transparent-Image_3x_LC.png">
+								<img class=" lazyloaded" alt="" loading="lazy" data-src="http://www.wxyz.org/wp-content/uploads/2023/09/MMFY20_PayPal-PNG-Transparent-Image_3x_LC.png" width="38" height="24" src="http://www.wxyz.org/wp-content/uploads/2023/09/MMFY20_PayPal-PNG-Transparent-Image_3x_LC.png">
 						</div>
 						</div>
 						</div>	
@@ -930,17 +928,17 @@ $(document).ready(function() {
 						<form id="onetime_form_paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 							 <input id="dntplgn_once_amount" type="hidden" name="amount" value="300.00">
 							<input type="hidden" name="cmd" value="_xclick">
-							<input type="hidden" name="business" value="info@irousa.org">
+							<input type="hidden" name="business" value="info@wxyz.org">
 							<input type="hidden" name="lc" value="US">
-												<input type="hidden" name="item_name" value="Donation - irousa">
+												<input type="hidden" name="item_name" value="Donation - wxyz">
 							<input type="hidden" name="currency_code" value="USD">
-												<input type="hidden" name="return" value="https://www.irousa.org/thank-you">
-												<input type="hidden" name="cancel_return" value="https://www.irousa.org/cancel">
+												<input type="hidden" name="return" value="https://www.wxyz.org/thank-you">
+												<input type="hidden" name="cancel_return" value="https://www.wxyz.org/cancel">
 							<input type="hidden" name="no_note" value="0">
 							<input class="dntplgn_submit_button makePayment_paypal" type="submit" name="submit" value="DONATE NOW" alt="PayPal - The safer, easier way to pay online!">
 							<img decoding="async" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 						</form>					
-						<form style="display:none;" id="monthly_form_paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post"> <!-- Identify your business so that you can collect the payments. --> <input type="hidden" name="business" value="info@irousa.org"> <!-- Specify a Subscribe button. --> <input type="hidden" name="cmd" value="_xclick-subscriptions"> <!-- Identify the subscription. --> <input type="hidden" name="item_name" value="Donation - irousa">  <!-- Set the terms of the regular subscription. --> <input type="hidden" name="currency_code" value="USD"> <input id="amount_paypal" type="hidden" name="a3" value="50.00"> <input type="hidden" name="p3" value="1"> <input type="hidden" name="t3" value="M"> <!-- Set recurring payments until canceled. --> <input type="hidden" name="src" value="1"> <!-- Display the payment button. --> 
+						<form style="display:none;" id="monthly_form_paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post"> <!-- Identify your business so that you can collect the payments. --> <input type="hidden" name="business" value="info@wxyz.org"> <!-- Specify a Subscribe button. --> <input type="hidden" name="cmd" value="_xclick-subscriptions"> <!-- Identify the subscription. --> <input type="hidden" name="item_name" value="Donation - wxyz">  <!-- Set the terms of the regular subscription. --> <input type="hidden" name="currency_code" value="USD"> <input id="amount_paypal" type="hidden" name="a3" value="50.00"> <input type="hidden" name="p3" value="1"> <input type="hidden" name="t3" value="M"> <!-- Set recurring payments until canceled. --> <input type="hidden" name="src" value="1"> <!-- Display the payment button. --> 
 							<input class="dntplgn_submit_button makePayment_paypal" type="submit" name="submit" value="DONATE NOW" alt="PayPal - The safer, easier way to pay online!"> <img alt="" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" > 
 						</form>
 						<br/><br/>
