@@ -13,8 +13,8 @@ get_header(); ?>
 <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
 <script>
 
-    //Stripe.setPublishableKey('pk_test_51NmNDEDapmKLlBZI1eK4oBBIz7NJD35uLnl3zjAqTaINXs9UKVM4eahMEgmWCCgyYJ3hgapE7emQ9rShZyUSqd9Q00tFlAoyja');
-    Stripe.setPublishableKey('pk_live_51NmNDEDapmKLlBZINog3R48dfcnnf9gfQs4whFiLU0hZyfPRbj6tC3hy2vKZE0HbiqnCqkSeRJCmt7DAZXj7QkG700d25iRh7h');
+    //Stripe.setPublishableKey('pk_test_xxxxxxa');
+    Stripe.setPublishableKey('pk_live_xxxxh');
     function stripePay(event) {
         $('.loader_gif').show();
         $('#makePayment').attr('disabled', 'disabled');
